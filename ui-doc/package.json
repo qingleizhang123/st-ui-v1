@@ -1,0 +1,24 @@
+{
+  "name": "ui-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main":"./dist/poly-ui.umd.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "dependencies": {
+    "core-js": "^2.6.12",
+    "element-ui": "^2.15.8",
+    "highlight.js": "^11.5.1",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.0"
+  }
+}
